@@ -1,7 +1,6 @@
 package qinomed.artifex;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.util.Mth;
@@ -20,7 +19,6 @@ import org.slf4j.Logger;
 import qinomed.artifex.datagen.ArtifexItemModels;
 import qinomed.artifex.datagen.ArtifexLang;
 import qinomed.artifex.item.ArtifexItems;
-import qinomed.artifex.item.weapon.MetalIconItem;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Artifex.MODID)
