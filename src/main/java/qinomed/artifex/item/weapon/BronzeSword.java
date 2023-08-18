@@ -1,4 +1,4 @@
-package qinomed.artifex.item.weapon.physical;
+package qinomed.artifex.item.weapon;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
