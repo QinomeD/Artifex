@@ -14,18 +14,15 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
-import net.minecraftforge.common.util.LazyOptional;
 import org.jetbrains.annotations.Nullable;
 import qinomed.artifex.Artifex;
 import qinomed.artifex.capabilities.mana.PlayerManaProvider;
-import qinomed.artifex.capabilities.spells.PlayerSpells;
 import qinomed.artifex.capabilities.spells.PlayerSpellsProvider;
 import qinomed.artifex.client.ClientManaData;
 import qinomed.artifex.network.ArtifexMessages;
 import qinomed.artifex.network.ManaSyncS2CPacket;
 import qinomed.artifex.spell.SpellRegistry;
 
-import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Consumer;
 
 public class MetalIconItem extends Item {

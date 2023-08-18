@@ -1,12 +1,9 @@
 package qinomed.artifex.spell;
 
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.common.util.LazyOptional;
 import qinomed.artifex.capabilities.mana.PlayerMana;
 import qinomed.artifex.capabilities.mana.PlayerManaProvider;
-import qinomed.artifex.network.ArtifexMessages;
-import qinomed.artifex.network.ManaSyncS2CPacket;
 
 public class Spell {
     final Category category;
