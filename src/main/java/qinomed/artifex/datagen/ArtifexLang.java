@@ -26,6 +26,8 @@ public class ArtifexLang extends LanguageProvider {
         add(ArtifexItems.TIN_ICON.get());
         add(ArtifexItems.BRONZE_SWORD.get());
         add("item.artifex.bronze_sword.description", "Deals 1.5x damage to burning mobs");
+
+        add("spell.artifex.speed", "Speed");
     }
 
     private void add(Item item) {

@@ -20,8 +20,8 @@ public class ArtifexItems {
     public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot", () -> new Item(BASE));
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot", () -> new Item(BASE));
 
-    public static final RegistryObject<Item> BRONZE_ICON = ITEMS.register("bronze_icon", () -> new MetalIconItem(BASE));
-    public static final RegistryObject<Item> TIN_ICON = ITEMS.register("tin_icon", () -> new MetalIconItem(BASE));
+    public static final RegistryObject<Item> BRONZE_ICON = ITEMS.register("bronze_icon", () -> new MetalIconItem(BASE, 3));
+    public static final RegistryObject<Item> TIN_ICON = ITEMS.register("tin_icon", () -> new MetalIconItem(BASE, 3));
 
     public static final RegistryObject<Item> BRONZE_SWORD = ITEMS.register("bronze_sword",
             () -> new BronzeSword(ArtifexTiers.BRONZE, 3, -2.4f, BASE));

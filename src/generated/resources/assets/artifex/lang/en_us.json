@@ -6,5 +6,6 @@
   "item.artifex.bronze_sword.description": "Deals 1.5x damage to burning mobs",
   "item.artifex.tin_icon": "Tin Icon",
   "item.artifex.tin_ingot": "Tin Ingot",
-  "itemGroup.artifex": "Artifex"
+  "itemGroup.artifex": "Artifex",
+  "spell.artifex.speed": "Speed"
 }

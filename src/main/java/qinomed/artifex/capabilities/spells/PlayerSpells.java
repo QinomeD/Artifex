@@ -3,6 +3,7 @@ package qinomed.artifex.capabilities.spells;
 import net.minecraft.nbt.ListTag;
 import net.minecraft.nbt.StringTag;
 import net.minecraft.resources.ResourceLocation;
+import qinomed.artifex.Artifex;
 import qinomed.artifex.spell.Spell;
 import qinomed.artifex.spell.SpellRegistry;
 
@@ -39,14 +40,16 @@ public class PlayerSpells {
     public void saveNBTData(ListTag nbt) {
         for (Spell spell : spells) {
             if (spell != null) {
-                nbt.add(StringTag.valueOf(spell.toString()));
+                nbt.add(StringTag.valueOf(SpellRegistry.SPELLS.get().getKey(spell).toString()));
             }
         }
     }
 
     public void loadNBTData(ListTag nbt) {
-        spells.clear();
+        //System.out.println(SpellRegistry.SPELLS.get().getKeys());
+        //System.out.println(SpellRegistry.SPEED_SPELL.getId());
         for (int i = 0; i < nbt.size(); i++) {
+            //System.out.println(SpellRegistry.SPELLS.get().getValue(new ResourceLocation(nbt.getString(i))));
             spells.add(SpellRegistry.SPELLS.get().getValue(new ResourceLocation(nbt.getString(i))));
         }
     }
