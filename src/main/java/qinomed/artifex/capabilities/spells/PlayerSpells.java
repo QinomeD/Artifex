@@ -3,7 +3,6 @@ package qinomed.artifex.capabilities.spells;
 import net.minecraft.nbt.ListTag;
 import net.minecraft.nbt.StringTag;
 import net.minecraft.resources.ResourceLocation;
-import qinomed.artifex.Artifex;
 import qinomed.artifex.spell.Spell;
 import qinomed.artifex.spell.SpellRegistry;
 
